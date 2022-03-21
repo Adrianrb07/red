@@ -84,9 +84,6 @@ public class HostTest {
         assertFalse(Host.validarMascara("255.255.255.127"));
         assertFalse(Host.validarMascara("255.255.255.257"));
         assertFalse(Host.validarMascara("255.255.255.194"));
-
-        assertFalse(Host.validarMascara(""));
-
         assertFalse(Host.validarMascara(""));
     }    
     
